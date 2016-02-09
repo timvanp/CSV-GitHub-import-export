@@ -106,8 +106,8 @@ issues.each do |issue|
 	label = issue['labels'] || "None"
 	if (label != "None")
 		label.each do |item|
-    		labels += item['name'] + " " 
-    	end	
+  		labels += item['name'] + "||" 
+  	end	
 	end
 
 	assignee = ""
